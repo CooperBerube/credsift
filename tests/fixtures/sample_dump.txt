@@ -1,0 +1,12 @@
+alice@example.com:password123
+bob@example.com:hunter2
+carol@example.com:5f4dcc3b5aa765d61d8327deb882cf99
+dave@other.com:letmein
+eve@example.com:$2b$12$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+frank@example.com:sunshine
+alice@example.com:password123
+grace@corp.example.com:qwerty
+bob@example.com:hunter2
+hank@example.com:correct-horse-battery-staple
+ivan@unrelated.org:monkey
+judy@example.com:5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8

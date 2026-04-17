@@ -82,9 +82,8 @@ def main(
     # ── Setup ─────────────────────────────────────────────────────────────────
     console.print(f"\n[bold green]credsift[/bold green]  starting run\n")
 
-    if not dry_run:
-        init_db(db_path)
-        init_hibp_cache(db_path)
+    init_db(db_path)
+    init_hibp_cache(db_path)
 
     dedup   = Deduplicator(db_path=db_path)
     results = []
