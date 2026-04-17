@@ -22,3 +22,11 @@ credsift = "credsift.cli:app"
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["credsift"]
+omit = ["tests/*"]
