@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "credsift"
+version = "0.1.0"
+description = "CLI tool for credential dump triage and analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "typer>=0.12",
+    "rich>=13",
+    "httpx>=0.27",
+    "pybloom-live>=4.0",
+    "tenacity>=8",
+]
+
+[project.scripts]
+credsift = "credsift.cli:app"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
