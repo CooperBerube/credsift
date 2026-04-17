@@ -1,7 +1,7 @@
 # credsift
 
 > CLI tool for credential dump triage and domain-targeted analysis.
-
+[![CI](https://github.com/cooperberube/credsift/actions/workflows/ci.yml/badge.svg)](https://github.com/cooperberube/credsift/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
